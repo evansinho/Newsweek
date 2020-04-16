@@ -54,12 +54,13 @@ li {
 }
 
 .second-nav ul li a {
-  font-size: 18px;
-  color: black;
+  font-size: 15px;
+  color: rgb(12, 11, 11);
+  font-weight: 700;
 }
 
 .second-nav ul li {
-  padding: .2rem;
+  padding-right: 1rem;
 }
 
 .second-nav ul li a:hover {
@@ -110,7 +111,9 @@ li {
 .news-image img,
 .magazine-img-container-sec-2 img,
 .section-3-container-img img,
-.section-4-container-img img {
+.section-4-container-img img,
+.section-10-img-1,
+.section-10-img-2 {
   width: 100%;
   height: 100%;
   object-fit: contain;
@@ -119,7 +122,8 @@ li {
 .left-container-img a,
 .center-container-img a,
 .magazine-img-container a,
-.section-3-container-img a {
+.section-3-container-img a,
+.magazine-text {
   display: block;
   font-weight: bold;
   font-size: 15px;
@@ -242,6 +246,28 @@ li {
   border-bottom: 1px solid #f4f5f6;
 }
 
-.footer-logo img {
+.top-left {
   padding-left: 40px;
+}
+
+.section-10-img-1,
+.section-10-img-2 {
+  width: 170px;
+  height: 230px;
+}
+
+.subscribe-image-container {
+  position: relative;
+}
+.section-10-img-2 {
+  position: absolute;
+  left: 50px;
+  top: 10px;
+  z-index: 1;
+}
+
+.newsletter-img {
+  object-fit: cover;
+  width: 190px;
+  height: 280px;
 }

@@ -14,7 +14,7 @@
 </head>
 
 <body>
-  <header class="container-fluid">
+  <header class="container-fluid sticky-top">
     <nav class="navbar navbar-expand justify-content-between align-items-center bg-red p-3 first-nav">
       <img id="logo1" src="images/download.svg" alt="logo" width="150px">
       <a href="#" class="text-light ml-3 pt-3 weather">
@@ -41,49 +41,38 @@
     </nav>
     <nav class="navbar navbar-expand align-items-center justify-content-center bg-white second-nav">
       <div class="header-nav"></div>
-      <ul class="navbar-nav align-items-center justify-content-center w-100">
-        <li class="nav-item py-1 font-weight-bold">
+      <ul class="navbar-nav w-100 pl-1">
+        <li class="nav-item">
           <a href="#" class="nav-link">U.S</a>
         </li>
-        <li class="nav-item bar">&verbar;</li>
-        <li class="nav-item py-1 font-weight-bold">
+        <li class="nav-item">
           <a href="#" class="nav-link">World</a>
         </li>
-        <li class="nav-item bar">&verbar;</li>
-        <li class="nav-item py-1 font-weight-bold">
+        <li class="nav-item">
           <a href="#" class="nav-link">BusinessTech & Science</a>
         </li>
-        <li class="nav-item bar">&verbar;</li>
-        <li class="nav-item py-1 font-weight-bold">
+        <li class="nav-item">
           <a href="#" class="nav-link">Culture</a>
         </li>
-        <li class="nav-item bar">&verbar;</li>
-        <li class="nav-item py-1 font-weight-bold">
+        <li class="nav-item">
           <a href="#" class="nav-link">Newsgeek</a>
         </li>
-        <li class="nav-item bar">&verbar;</li>
-        <li class="nav-item py-1 font-weight-bold">
+        <li class="nav-item">
           <a href="#" class="nav-link">Sports</a>
         </li>
-        <li class="nav-item bar">&verbar;</li>
-        <li class="nav-item py-1 font-weight-bold">
+        <li class="nav-item">
           <a href="#" class="nav-link">Health</a>
         </li>
-        <li class="nav-item bar">&verbar;</li>
-        <li class="nav-item py-1 font-weight-bold">
+        <li class="nav-item">
           <a href="#" class="nav-link">The Debate</a>
         </li>
-        <li class="nav-item bar">&verbar;</li>
-        <li class="nav-item py-1 font-weight-bold">
+        <li class="nav-item">
           <a href="#" class="nav-link">Vantage</a>
         </li>
-        <li class="nav-item bar">&verbar;</li>
-        <li class="nav-item py-1 font-weight-bold">
+        <li class="nav-item d-flex">
           <a href="#" class="nav-link">Weather</a>
-        </li>
-        <li class="nav-item">
           <input type="text" placeholder="Search" />
-          <i class="fas fa-search"></i>
+          <i class="fas fa-lg fa-search pt-3 pl-2"></i>
         </li>
       </ul>
     </nav>
@@ -638,7 +627,7 @@
           <div class="magazine-img-container position-relative">
             <img
               src="https://d.newsweek.com/en/full/1579878/april-17-24-2020-cover.jpg?w=360&h=480&q=90&f=83783f0b5161400b0bc0b3ea3e5912b4"
-              alt="">
+              alt="" width="257px" height="343">
             <a href="#" class="magazine-text">APRIL 24 ISSUE</a>
           </div>
           <div class="magazine-body">
@@ -686,7 +675,7 @@
           </div>
           <div class="magazine-body pt-2">
             <div class="magazine links">
-              <a href="#" class="bg-red text-white p-1 font-weight-bold">HORIZoN</a>
+              <a href="#" class="bg-red text-white p-1 font-weight-bold">HORIZON</a>
               <a href="#" class="text-danger p-1 font-weight-bold">SPORTS</a>
             </div>
             <div class="magazine-description">
@@ -1312,26 +1301,34 @@
     <div class="container-fluid bg-white py-4 mt-1">
       <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-8">
-          <h6 class="subscribe-section text-red font-weight-bolder">Subscribe</h56>
-            <div class="subscribe-container bg-grey mt-3 p-3 d-flex">
-              <div class="subscribe-img-container">
-                <img src="images/sub&new.PNG" alt="">
+          <h6 class="subscribe-section text-red font-weight-bolder mb-2">Subscribe</h56>
+            <div class="d-flex flex-column flex-md-row align-items-center justify-content-center pt-4 pl-4 pb-5 bg-grey">
+              <div class="subscribe-image-container mr-5">
+                <img class="section-10-img-1" src="https://d.newsweek.com/en/full/1577760/cover-april-10-2020.jpg?w=170&q=95&f=a4b41b48dc29ccde5be9091db89cdf35" alt="subscribe-bottom">
+                <img class="section-10-img-2" src="https://d.newsweek.com/en/full/1579878/april-17-24-2020-cover.jpg?w=170&q=95&f=b4884b3be2e05e586232cc3f3d569aa8" alt="subscribe-bottom">
               </div>
-              <div class="subscribe-body pl-3 pt-3">
-                <h4 class="subscribe-section-title text-dark font-weight-bold">In-depth Stories You Don't See Elsewhere
-                  About Topics You Want to Read!</h4>
-                <p class="subscribe-section-text text-dark">
-                  All Access + Weekly Delivery. <br>
-                  Choose A Membership That's Perfect for You!</p>
-                <a href="#" class="bg-red text-white p-2">SUBSCRIBE</a>
+              <div class="subscribe-info d-flex flex-column align-items-center justify-content-center mt-3 ml-5">
+                <h5 class="font-weight-bold text-center text-md-left text-dark">
+                  In-depth Stories You Don't See Elsewhere About Topics You Want
+                  to Read!
+                </h5>
+                <span class="mt-3 text-dark font-weight-light">All Access + Weekly Delivery.</span>
+                <span class="text-dark font-weight-light">Choose A Membership That's Perfect for You!</span>
+                <a href="#!" class="btn-lg mt-5 p-1 border-0 bg-red text-white">SUBSCRIBE &gt;</a>
               </div>
             </div>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-4">
           <h6 class="newsletter-section text-red font-weight-bolder">Newsletter</h6>
-          <div class="newsletter-container pt-2">
-            <div class="newsletter-img-container mr-3">
-              <img src="images/sign up.PNG" alt="" height="278px">
+          <div style="height: 280px;" class="d-flex justify-content-center align-items-center flex-column flex-md-row align-items-start justify-content-md-start pt-1 pb-3">
+            <img src="https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5" alt="subscribe-bottom" class="newsletter-img pt-1">
+            <div class="subscribe-info d-flex flex-column align-items-center justify-content-center align-items-md-start justify-content-md-start mt-3 ml-4">
+              <h5 class="font-weight-bold mb-sm-0">
+                The Starting 5
+              </h5>
+              <span class="mt-md-3 text-center text-md-left mb-2">See why nearly a quarter of a million subscribers begin their
+                day with the Starting 5.</span>
+              <a href="#!" class="btn-lg mt-md-5 bg-red text-white border-0">SIGN UP &gt;</a>
             </div>
           </div>
         </div>
@@ -1341,9 +1338,12 @@
   </main>
   <footer class="container-fluid">
     <div class="bg-white py-4 mt-1">
-      <div class="footer-logo d-flex justify-content-between">
-        <img src="images/footer-logo.PNG" alt="">
-        <div class="social-icons mr-5 pt-2">
+      <div class="footer-logo d-flex flex-sm-column flex-md-row justify-content-between align-items-md-center">
+        <div class="top-left d-flex flex-column flex-md-row align-items-md-center">
+          <h3 class="text-red font-weight-bold">Newsweek</h3>
+          <small class="pl-md-2 pb-2">© 2020 Newsweek</small>
+        </div>
+        <div class="social-icons pt-2">
           <span><i class="p-2 fab fa-lg fa-facebook-square"></i></span>
           <span><i class="p-2 fab fa-lg fa-twitter"></i></span>
           <span><i class="p-2 fab fa-lg fa-instagram"></i></span>
@@ -1352,7 +1352,7 @@
         </div>
       </div>
       <div class="footer-links">
-        <ul class="d-inline-flex pt-2 mb-n4">
+        <ul class="d-flex flex-wrap pt-2">
           <li class=""><a href="#" class="font-weight-bolder text-dark mr-2">Editions:</a></li>
           <li class="px-2"><a href="#" class="text-grey">U.S Edition</a></li>
           <li class="text-grey">&verbar;</li>
@@ -1364,7 +1364,7 @@
           <li class="text-grey">&verbar;</li>
           <li class="px-2"><a href="#" class="text-grey">România</a></li>
         </ul>
-        <ul class="ml-n2 d-inline-flex mb-n4">
+        <ul class="d-flex flex-wrap mt-n2">
           <li class="px-2"><a href="#" class="text-grey">About Us</a></li>
           <li class="text-grey">&verbar;</li>
           <li class="px-2"><a href="#" class="text-grey">Corrections</a></li>
@@ -1388,8 +1388,6 @@
           <li class="px-2"><a href="#" class="text-grey">Archive</a></li>
           <li class="text-grey">&verbar;</li>
           <li class="px-2"><a href="#" class="text-grey">Announcements</a></li>
-        </ul>
-        <ul>
           <li><a href="#" class="text-grey">Consent Preferences</a></li>
         </ul>
       </div>
