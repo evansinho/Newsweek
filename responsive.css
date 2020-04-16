@@ -1,0 +1,41 @@
+@media screen and (max-width: 1140px) {
+  .second-nav ul li a {
+    font-size: 14p;
+  }
+
+  .second-nav ul li {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .first-nav {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 40px;
+  }
+
+  .first-nav ul {
+    padding-bottom: 10px;
+  }
+
+  .second-nav,
+  .second-nav .header-nav,
+  .header-center,
+  .weather {
+    display: none;
+  }
+
+  #logo1,
+  .fa-bars {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 720px) {
+}
+
+@media screen and (max-width: 540px) {
+}

@@ -67,6 +67,11 @@ li {
   border: none;
 }
 
+#logo1,
+.fa-bars {
+  display: none;
+}
+
 .header-nav {
   position: absolute;
   top: 0;
@@ -110,6 +115,7 @@ li {
 .section-3-container-img img {
   width: 100%;
   height: 100%;
+  object-fit: contain;
 }
 
 .left-container-img a,
@@ -135,6 +141,7 @@ li {
 .section-3-container-title,
 .section-4-container-title {
   font-weight: 750;
+  overflow-wrap: break-word;
 }
 
 .left-container-title:hover,
