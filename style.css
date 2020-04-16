@@ -58,6 +58,10 @@ li {
   color: black;
 }
 
+.second-nav ul li {
+  padding: .2rem;
+}
+
 .second-nav ul li a:hover {
   color: #ff0500;
 }
@@ -99,20 +103,14 @@ li {
   margin: 10px 0;
 }
 
-.left-container-img {
-  width: 343px;
-  height: 228px;
-  overflow: hidden;
-  padding: 5px 10px 10px 5px;
-}
-
 .left-container-img img,
 .pandemic-image img,
 .opinion-image img,
 .center-container-img img,
 .news-image img,
 .magazine-img-container-sec-2 img,
-.section-3-container-img img {
+.section-3-container-img img,
+.section-4-container-img img {
   width: 100%;
   height: 100%;
   object-fit: contain;
@@ -161,18 +159,6 @@ li {
   color: rgb(77, 77, 94);
 }
 
-.center-container-img {
-  width: 506px;
-  height: 312px;
-  overflow: hidden;
-  padding: 5px 10px 10px 5px;
-}
-
-.pandemic-image {
-  width: 150px;
-  height: 150px;
-}
-
 .pandemic-image a {
   display: block;
   font-size: 14px;
@@ -213,7 +199,6 @@ li {
   height: 60px;
   border-radius: 50%;
   overflow: hidden;
-  position: relative;
 }
 
 .opinion-text {
@@ -231,27 +216,8 @@ li {
   border-bottom: 0.5px solid #95a0a1;
 }
 
-.news-image {
-  width: 152px;
-  height: 95px;
-}
-
-/* section 2 */
-
-.magazine-img-container-sec-2 {
-  width: 300px;
-  height: 250px;
-}
-
 .section-headers {
   border-bottom: 1px solid #95a0a1;
-}
-
-/* section 3 */
-
-.section-3-container-img {
-  width: 262px;
-  height: 195px;
 }
 
 /* section 4 */
