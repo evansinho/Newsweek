@@ -13,8 +13,16 @@ a {
   text-decoration: none;
 }
 
+li {
+  list-style: none;
+}
+
 .text-red {
   color: #ff0500;
+}
+
+.text-grey {
+  color: #b3b3b3;
 }
 
 .bg-red {
@@ -124,7 +132,8 @@ a {
 .center-container-title,
 .story-title,
 .magazine-description p,
-.section-3-container-title {
+.section-3-container-title,
+.section-4-container-title {
   font-weight: 750;
 }
 
@@ -132,8 +141,8 @@ a {
 .center-container-title:hover,
 .story-title:hover,
 .magazine-description p:hover,
-.section-3-container-title:hover {
-  font-weight: 750;
+.section-3-container-title:hover,
+.section-4-container-title:hover {
   text-decoration: underline;
   text-decoration-color: #ff0500;
   cursor: pointer;
@@ -223,15 +232,43 @@ a {
 /* section 2 */
 
 .magazine-img-container-sec-2 {
-  width:300px;
-  height:250px;
+  width: 300px;
+  height: 250px;
 }
 
 .section-headers {
   border-bottom: 1px solid #95a0a1;
 }
 
+/* section 3 */
+
 .section-3-container-img {
   width: 290px;
   height: 195px;
+}
+
+/* section 4 */
+
+.section-4-container-title {
+  font-size: 17px;
+}
+
+.section-header {
+  border-top: 1px solid grey;
+}
+
+.bg-grey {
+  background-color: #f4f5f6;
+}
+
+.footer-links a {
+  font-size: 14px;
+}
+
+.footer-logo {
+  border-bottom: 1px solid #f4f5f6;
+}
+
+.footer-logo img {
+  padding-left: 40px;
 }
