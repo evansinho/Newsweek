@@ -1,6 +1,21 @@
 @media screen and (max-width: 1140px) {
+  
+}
+
+@media screen and (max-width: 960px) {
+  .first-nav {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 40px;
+  }
+
+  .first-nav ul {
+    padding-bottom: 10px;
+  }
+
   .second-nav ul li a {
-    font-size: 14p;
+    font-size: 14px;
   }
 
   .second-nav,
@@ -18,19 +33,6 @@
   .second-nav ul li {
     padding: 0;
     margin: 0;
-  }
-}
-
-@media screen and (max-width: 960px) {
-  .first-nav {
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    height: 40px;
-  }
-
-  .first-nav ul {
-    padding-bottom: 10px;
   }
 
   .newsletter-img {

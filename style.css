@@ -54,7 +54,7 @@ li {
 }
 
 .second-nav ul li {
-  padding-right: 1rem;
+  padding-right: 0.2rem;
 }
 
 .second-nav input {
@@ -94,11 +94,28 @@ li {
   margin: 10px 0;
 }
 
+#logo1 {
+  width: 150px;
+}
+
+.cloud {
+  width: 30px;
+}
+
+.main-logo {
+  width: 480px;
+}
+.small-logo {
+  width: 28px;
+  height: 28px;
+}
+
 .left-container-img img,
 .pandemic-image img,
 .opinion-image img,
 .center-container-img img,
 .news-image img,
+.us-image img,
 .magazine-img-container-sec-2 img,
 .section-3-container-img img,
 .section-4-container-img img,
@@ -167,9 +184,9 @@ li {
 }
 
 .second-nav ul li a {
-  font-size: 15px;
+  font-size: 14px;
   color: rgb(12, 11, 11);
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .pandemic-image a:hover {
