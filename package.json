@@ -1,0 +1,24 @@
+{
+  "name": "Newsweek",
+  "version": "1.0.0",
+  "description": "A clone of the \"newsweek.com\" homepage using Bootstrap.",
+  "main": "stylelint.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evansinho/Newsweek.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evansinho/Newsweek/issues"
+  },
+  "homepage": "https://github.com/evansinho/Newsweek#readme",
+  "devDependencies": {
+    "stylelint": "^13.2.1",
+    "stylelint-config-recommended": "^3.0.0"
+  }
+}
