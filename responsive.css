@@ -44,7 +44,17 @@
     width: 100%;
     height: 150px;
   }
+
+  .first-nav ul li a {
+    font-size: 10px;
+  }
+
+  .nav-subscribe {
+    width: 60px;
+    text-align: center;
+    padding-top: 5px;
+  }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 512px) {
 }
