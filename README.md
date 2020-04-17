@@ -15,20 +15,20 @@
 
 ### Prerequisites
 
--Any kind of browser supporting CSS3 and HTML5
+- Any kind of browser supporting CSS3 and HTML5
 
 ### Setup
 
--Fork the repo to your remote repository.
--Clone or download the repository to your local machine.
+- Fork the repo to your remote repository.
+- Clone or download the repository to your local machine.
 
 ### Install
 
--No istallation needed.
+- No istallation needed.
 
 ### Usage
 
--Visit the live demo link on your web browser.
+- Visit the live demo link on your web browser.
 
 ## Authors
 
